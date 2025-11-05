@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaSpasse - La BD Interactive du SaaSpaladin</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="comic-container">
+        <header>
+            <h1>SaaSpasse</h1>
+            <p class="subtitle">Les aventures du SaaSpaladin</p>
+        </header>
+
+        <div class="comic-viewer">
+            <div class="pages-wrapper">
+                <!-- Page 1 -->
+                <div class="page active">
+                    <img src="images/page1.jpg" alt="Page 1 - SaaSpasse">
+                    <div class="page-number">1</div>
+                </div>
+
+                <!-- Page 2 -->
+                <div class="page">
+                    <img src="images/page2.jpg" alt="Page 2 - SaaSpasse">
+                    <div class="page-number">2</div>
+                </div>
+
+                <!-- Page 3 -->
+                <div class="page">
+                    <img src="images/page3.jpg" alt="Page 3 - SaaSpasse">
+                    <div class="page-number">3</div>
+                </div>
+
+                <!-- Page 4 -->
+                <div class="page">
+                    <img src="images/page4.jpg" alt="Page 4 - SaaSpasse">
+                    <div class="page-number">4</div>
+                </div>
+
+                <!-- Page 5 -->
+                <div class="page">
+                    <img src="images/page5.jpg" alt="Page 5 - SaaSpasse">
+                    <div class="page-number">5</div>
+                </div>
+            </div>
+
+            <!-- Navigation buttons for desktop -->
+            <button class="nav-btn prev" aria-label="Page précédente">&lsaquo;</button>
+            <button class="nav-btn next" aria-label="Page suivante">&rsaquo;</button>
+        </div>
+
+        <div class="controls">
+            <div class="progress">
+                <span class="current-page">1</span> / <span class="total-pages">5</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
